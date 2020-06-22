@@ -1,20 +1,22 @@
+//use this file for testing endpoints in Postman
+
 import express from 'express';
 import bodyParser from 'body-parser';
 
-// const articlesInfo = {
-//   'learn-react': {
-//     upvotes: 0,
-//     comments: [],
-//   },
-//   'learn-node': {
-//     upvotes: 0,
-//     comments: [],
-//   },
-//   'my-thoughts-on-resumes': {
-//     upvotes: 0,
-//     comments: [],
-//   },
-// };
+const articlesInfo = {
+  'learn-react': {
+    upvotes: 0,
+    comments: [],
+  },
+  'learn-node': {
+    upvotes: 0,
+    comments: [],
+  },
+  'my-thoughts-on-resumes': {
+    upvotes: 0,
+    comments: [],
+  },
+};
 
 const app = express();
 
